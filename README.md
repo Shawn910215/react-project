@@ -1,5 +1,7 @@
 # react-project
 
+Notes:
+
 review the javascript basics:
 
 1.Destructuring
@@ -83,3 +85,25 @@ const res = await fetch("https://jsonplaceholder.typicode.com/todos");
 const data = await res.json();
 console.log(data);
 }
+
+-----debugging methods------
+
+1. make sure the application is running.
+2. see message in problems tabs or inspect browser.
+
+----component---
+including: data,logic appearance
+
+-----jsx------
+1.describe what components look like and how they work
+
+#JSX is Declarative (not Imperative), it describes what UI look like using JSX, based on current data. Not do things step by step!
+#never touch DOM
+
+2. must return a block of jsx
+
+3.extension of js that allows us to embed js,css,react components
+
+4. a tool called BABEL transfer jsx to javascript.
+
+5. we could use React without JSX.
