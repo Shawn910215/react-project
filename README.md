@@ -121,3 +121,9 @@ state is internal data that can be updated by the component's logic;
 
 ---render list---
 each item needs a unique key prop
+
+---conditional rendering with &&---
+
+---conditional rendering with ternary operator---
+
+---conditional rendering with multiple returns---
