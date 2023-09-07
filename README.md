@@ -2,7 +2,7 @@
 
 Notes:
 
-review the javascript basics:
+----review the javascript basics:------
 
 1.Destructuring
 
@@ -107,3 +107,17 @@ including: data,logic appearance
 4. a tool called BABEL transfer jsx to javascript.
 
 5. we could use React without JSX.
+
+-----Separation of concerns---
+#not one technology per file
+#but one component per file,each component is concerned with one piece of the UI.
+
+---passing and revieving props---
+use props to pass parameters from parent components to child components.
+the data in compoent can be divied to props and state
+props is data fomr outside and can only updated by parent component;
+porps is immutable!
+state is internal data that can be updated by the component's logic;
+
+---render list---
+each item needs a unique key prop
